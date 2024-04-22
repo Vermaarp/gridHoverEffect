@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    color: white;
+    font-family: "Noto Sans JP", sans-serif;
+  }
+  body {
+    background-color: black;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .win-grid {
+   
+    letter-spacing: 2px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: stretch;
+    text-align: center;
+    grid-gap: 2rem;
+    padding: 5rem;
+  }
+  
+  .win-btn {
+    padding: 2rem 2rem;
+    text-align: center;
+    border: none;
+    border-radius: 0px;
+    border: 1px solid transparent;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
